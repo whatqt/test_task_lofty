@@ -19,10 +19,19 @@
     pip install -r requirements.txt
     ```
 
-4. Настройте API ключ:
-
+4. Настройка API ключа:
     1. Получите ключ на [OpenWeatherMap](https://openweathermap.org/).
-
-    2. Переименуйте ```.env.example``` в ```.env```.
-
+    2. Переименуйте `.env.example` в `.env`.
     3. Замените значение на свой API ключ.
+
+## Запуск
+
+Запустите скрипт из командной строки, передав название города аргументом:
+
+```bash
+python weather.py Moscow
+```
+
+## Требования
+- Python 3.8+
+- Библиотеки: `requests`, `python-dotenv`
