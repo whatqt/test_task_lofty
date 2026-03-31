@@ -20,9 +20,9 @@
     ```
 
 4. Настройка API ключа:
-    1. Получите ключ на [OpenWeatherMap](https://openweathermap.org/).
-    2. Переименуйте `.env.example` в `.env`.
-    3. Замените значение на свой API ключ.
+1. Получите ключ на [OpenWeatherMap](https://openweathermap.org/).
+2. Переименуйте `.env.example` в `.env`.
+3. Замените значение на свой API ключ.
 
 ## Запуск
 
